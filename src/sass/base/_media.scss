@@ -1,0 +1,647 @@
+@media (max-width: 1629px) {
+    .container {
+        padding: 0 150px;
+    }
+    .subscribe {
+        &-forms {
+            display: flex;
+            form {
+                input {
+                    margin-top: 5px;
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1439px) {
+
+    .container {
+        padding: 0 100px;
+    }
+
+    .cashback {
+        .last-days {
+            img {
+                width: 120px;
+            }
+        }
+
+        .action {
+            width: 17%;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .promo {
+        min-height: 688px;
+
+        .navigation {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        &-left-text {
+            width: 343px;
+        }
+
+        &-rating {
+            margin-top: 70px;
+        }
+    }
+
+    .descr {
+        &-wrapper {
+            img {
+                order: 1;
+            }
+        }
+
+        &-block {
+            margin-top: 30px;
+
+            &-wrapper {
+                flex-direction: column;
+
+                .left-block {
+                    margin-right: 0;
+                    order: 2;
+                }
+
+                .right-block {
+                    margin-left: 0;
+                    order: 2;
+                }
+            }
+        }
+
+        &-block {
+            padding: 24px;
+
+            .block-title {
+                font-size: 20px;
+            }
+
+            .block-descr {
+                font-size: 16px;
+            }
+
+            .block-list &-item {
+                font-size: 16px;
+
+                &-btn {
+                    button {
+                        font-size: 16px;
+                        padding: 19px 59px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .cashback {
+        padding-top: 80px;
+
+        &-table {
+            .table-header {
+                .header-title {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .coin-row {
+            padding: 15px 0;
+        }
+
+        .coin {
+            width: 10%;
+
+            &-name {
+                display: none;
+            }
+
+            &-descr {
+                color: #0A071A;
+                padding-left: 8px;
+                font-size: 16px;
+            }
+        }
+
+        .price {
+            width: 7%;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .changes {
+            font-size: 16px;
+        }
+
+        .turnover {
+            display: none;
+        }
+
+        .capitalization {
+            display: none;
+        }
+
+        .action {
+            width: 14%;
+        }
+
+        &:first-child {
+            padding-bottom: 0;
+        }
+
+        &-btn {
+            button {
+                margin-top: 32px;
+            }
+        }
+    }
+
+    .subscribe {
+        padding-top: 100px;
+
+        &-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        &-header {
+            margin-right: 22px;
+            margin-bottom: 40px;
+        }
+
+        &-wrapper {
+            flex-direction: column;
+            margin-top: 0;
+            padding: 0 24px 32px 24px;
+        }
+
+        &-forms {
+            form {
+                input {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        &-btn {
+            button {
+                margin-top: 40px;
+            }
+        }
+
+        /* &-wrapper {
+            flex-direction: column;
+            margin-top: 0;
+            padding: 40px 24px;
+        } */
+    }
+
+    .how-to {
+        padding-top: 231px;
+
+        &-wrapper {
+            flex-direction: column;
+
+            .block-wrapper {
+                &.vertical-wrapper {
+                    margin-top: 0;
+                }
+
+                .block-btn {
+                    button {
+                        padding: 19px 75px;
+
+                        &.sign-up,
+                        &.log-in {
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+
+            .block-sign-up {
+                margin-right: 0;
+                width: 100%;
+            }
+
+            .block-log-in {
+                width: 100%;
+                margin-top: 30px;
+                margin-left: 0;
+            }
+        }
+
+        &-block-vertical {
+            padding: 32px 108px 40px 108px;
+            text-align: center;
+
+            .block-ornament-img {
+                display: none;
+            }
+
+            .vertical-title {
+                text-align: center;
+            }
+        }
+
+        &-block-horizontal {
+            padding: 43px 67px;
+
+            &.top-block {
+                margin-right: 100px;
+            }
+
+            &.bottom-block {
+                margin-left: 100px;
+            }
+        }
+
+        &-block-wrapper {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &-logo {
+            width: 140px;
+            height: 26px;
+        }
+
+        &-title {
+            font-size: 42px;
+        }
+
+        &-btn {
+            .more {
+                margin-left: 42px;
+            }
+        }
+
+        &-info {
+            align-items: start;
+        }
+
+        &-left-text {
+            br {
+                display: none;
+            }
+        }
+
+        &-rating {
+            justify-content: center;
+
+            .gmt {
+                display: none;
+            }
+        }
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .descr {
+        padding-top: 80px;
+    }
+
+    .cashback {
+        &-wrapper {
+            margin-top: 40px;
+        }
+
+        .coin {
+            width: 10%;
+        }
+
+        .last-days {
+            width: 10%;
+
+            img {
+                width: 99px;
+            }
+        }
+
+        .action {
+            width: 17%;
+        }
+    }
+
+    .how-to {
+        padding-bottom: 40px;
+
+        &-wrapper {
+            margin-top: 30px;
+
+            .block-sign-up {
+                width: 100%;
+            }
+
+            .block-wrapper {
+                .block-title {
+
+                    &.vertical-title {
+                        font-size: 20px;
+                    }
+
+                    &.horizontal-title {
+                        font-size: 16px;
+                    }
+                }
+
+                .block-descr {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &-available-text {
+            font-size: 16px;
+        }
+
+        &-block-vertical {
+            padding: 32px 0 40px 0;
+            text-align: center;
+
+            .block-ornament-img {
+                display: none;
+            }
+
+            .vertical-title {
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+
+        &-block-horizontal {
+            &.bottom-block {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .footer {
+        padding: 24px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &-left-text {
+            font-size: 19px;
+            margin-right: 35px;
+        }
+
+        &-right-descr {
+            font-size: 16px;
+        }
+
+        &-rating {
+            &-wrapper {
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .descr {
+        &-wrapper {
+            img {
+                order: 1;
+            }
+        }
+    }
+
+    .cashback {
+        &-wrapper {
+            margin-top: 40px;
+        }
+
+        .coin,
+        .price,
+        .changes {
+            width: 14%;
+        }
+
+        .last-days {
+            display: none;
+        }
+
+        .action {
+            display: none;
+        }
+    }
+
+    .subscribe {
+        &-content {
+            flex-direction: column;
+        }
+
+        &-wrapper {
+            padding: 40px 24px;
+            width: 100%;
+        }
+
+        &-forms {
+            text-align: center;
+
+            form {
+                input {
+                    font-size: 16px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .how-to {
+        &-block-vertical {
+            padding: 32px 24px 40px 24px;
+            text-align: center;
+
+            .block-ornament-img {
+                display: none;
+            }
+
+            .vertical-title {
+                text-align: left;
+            }
+
+            .block-descr {
+                text-align: left;
+            }
+        }
+
+        &-block-horizontal {
+            padding: 32px 24px;
+
+            .block-ornament-img {
+                img {
+                    display: none;
+                }
+            }
+
+            &.top-block {
+                margin-right: 40px;
+            }
+
+            &.bottom-block {
+                margin-left: 40px;
+            }
+        }
+
+        &-available-block {
+            flex-direction: column;
+        }
+
+        &-available-icon {
+            margin-bottom: 8px;
+        }
+
+        &-available-text {
+            margin-left: 0;
+        }
+    }
+
+    .footer {
+        padding: 24px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .promo {
+        min-height: 100vh;
+        padding-top: 20px;
+
+        .promo-btn {
+            .join-us {
+                font-size: 16px;
+                padding: 18px 50px;
+            }
+
+            .more {
+                margin-left: 13px;
+            }
+        }
+
+        &-info {
+            margin-top: 50px;
+            display: block;
+        }
+
+        &-left-text {
+            width: auto;
+        }
+
+        &-right-icon {
+            margin-top: 40px;
+        }
+
+        &-rating {
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: start;
+
+            &-wrapper {
+                border-right: none;
+            }
+
+            .btc {
+                padding-bottom: 10px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+            }
+
+            .eth {
+                margin-top: 10px;
+            }
+
+            .sol {
+                display: none;
+            }
+        }
+    }
+
+    .cashback {
+        &-wrapper {
+            .coin {
+                width: 11%;
+            }
+
+            .price {
+                width: 0%;
+            }
+
+            .changes {
+                width: 28%;
+            }
+        }
+    }
+
+    .subscribe {
+        &-wrapper {
+            box-sizing: border-box;
+            padding: 27px 5px;
+        }
+
+        &-forms {
+            text-align: center;
+
+            form {
+                input {
+                    font-size: 16px;
+                    padding: 19px 0 19px 30px;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &-btn {
+            button {
+                font-size: 16px;
+                padding: 19px 44px;
+            }
+        }
+    }
+
+    .how-to {
+        padding-bottom: 32px;
+    }
+
+    .footer {
+        &-wrapper {
+            flex-direction: column;
+        }
+
+        &-logo {
+            margin-bottom: 24px;
+        }
+    }
+}

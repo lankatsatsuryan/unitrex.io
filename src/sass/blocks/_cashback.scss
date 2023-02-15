@@ -1,0 +1,236 @@
+.cashback {
+    padding-top: 140px;
+
+    &-wrapper {
+        margin-top: 70px;
+    }
+
+    &-table {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .column-name {
+            text-align: left;
+            font-family: 'Noto Sans';
+            font-weight: 700;
+            font-size: 16px;
+            color: #0A071A;
+
+            &:last-child {
+                text-align: center;
+            }
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header {
+                &-title {
+                    font-family: 'Noto Sans';
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #0A071A;
+
+                    &:last-child {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+
+        .coin {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: 24%;
+
+            &-title {
+                width: 16%;
+            }
+
+            &-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 24px 0;
+                border-bottom: 1px dashed rgba(70, 79, 83, 0.2);
+
+                &:first-child {
+                    padding-top: 0;
+                    border-bottom: none;
+                }
+            }
+
+            &-name {
+                font-family: 'Noto Sans';
+                font-weight: 600;
+                font-size: 22px;
+                color: #0A071A;
+                margin: 0 8px 0 20px;
+            }
+
+            &-descr {
+                font-family: 'Noto Sans';
+                font-weight: 500;
+                font-size: 18px;
+                color: #464F53;
+            }
+
+        }
+
+        .price {
+            width: 14%;
+            font-family: 'Noto Sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: #0A071A;
+
+            &-title {
+                width: 14%;
+                padding-left: 17px;
+            }
+        }
+
+        .changes {
+            width: 10%;
+
+            &-wrapper {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                margin-left: 10px;
+            }
+
+            &-icon {
+                &.positive {
+                    width: 9px;
+                    height: 5px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center center;
+                    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.23479 5.15741L5.226 0.508972C5.11126 0.375916 4.89031 0.375916 4.77434 0.508972L0.765556 5.15741C0.61663 5.33075 0.750907 5.58466 0.991386 5.58466H9.00896C9.24944 5.58466 9.38372 5.33075 9.23479 5.15741Z' fill='%2331CCB0'/%3E%3C/svg%3E%0A");
+                }
+
+                &.negative {
+                    width: 9px;
+                    height: 5px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center center;
+                    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.23479 0.836731L5.226 5.48517C5.11126 5.61823 4.89031 5.61823 4.77434 5.48517L0.765556 0.836731C0.61663 0.663392 0.750907 0.409485 0.991386 0.409485H9.00896C9.24944 0.409485 9.38372 0.663392 9.23479 0.836731Z' fill='%23F13164'/%3E%3C/svg%3E%0A");
+                }
+            }
+
+            &-index {
+                font-family: 'Noto Sans';
+                font-weight: 500;
+                font-size: 18px;
+
+                &.positive {
+                    color: #31CCB0;
+                }
+
+                &.negative {
+                    color: #F13164;
+                }
+            }
+
+
+        }
+
+        .turnover {
+            width: 14%;
+            text-align: center;
+            font-family: 'Noto Sans';
+            font-weight: 500;
+            font-size: 18px;
+            color: #464F53;
+
+            &-title {
+                width: 14%;
+            }
+        }
+
+        .capitalization {
+            width: 14%;
+            font-family: 'Noto Sans';
+            font-weight: 500;
+            font-size: 18px;
+            color: #464F53;
+
+            &-title {
+                width: 14%;
+            }
+        }
+
+        .last-days {
+            width: 14%;
+
+            &-title {
+                width: 14%;
+            }
+        }
+
+        .action {
+            width: 10%;
+
+            &-title {
+                width: 14%;
+            }
+
+            &-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                padding: 7px 0;
+                border: 2px solid #F7931A;
+                border-radius: 100px;
+                padding: 7px 16px;
+            }
+
+            &-logo {
+                width: 24px;
+                height: 20px;
+                background-size: contain;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-image: url("data:image/svg+xml,%3Csvg width='26' height='21' viewBox='0 0 26 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.51148 4.45687C11.5221 2.72677 14.493 2.71789 16.514 4.43593L20.9843 8.23616C21.1801 8.40263 21.1869 8.70266 20.9988 8.8778L20.0285 9.78115L16.2605 6.2975C14.4206 4.59647 11.5805 4.60146 9.7466 6.30895L3.8094 11.8369C2.85492 12.7256 2.88931 14.248 3.88293 15.0927L8.35321 18.8929C11.0307 21.1691 14.9668 21.1573 17.6306 18.8651L24.7901 12.7046C25.1564 12.3894 25.1979 11.837 24.8827 11.4707C24.5675 11.1044 24.015 11.0629 23.6487 11.3781L16.4892 17.5386C14.4785 19.2687 11.5077 19.2776 9.48668 17.5596L5.0164 13.7593C4.82058 13.5929 4.8138 13.2928 5.00191 13.1177L5.97213 12.2143L9.74016 15.698C11.58 17.399 14.4202 17.394 16.2541 15.6865L22.1913 10.1586C23.1458 9.2699 23.1114 7.74753 22.1177 6.90283L17.6475 3.10261C14.97 0.826428 11.0339 0.838193 8.37006 3.13035L1.21055 9.29085C0.844245 9.60605 0.80281 10.1585 1.11801 10.5248C1.4332 10.8911 1.98567 10.9326 2.35198 10.6174L9.51148 4.45687ZM15.0725 7.58247L18.7442 10.977L15.0616 14.4058C13.8979 15.4892 12.0957 15.4924 10.9282 14.413L7.25652 11.0185L10.9391 7.58974C12.1028 6.50625 13.905 6.50308 15.0725 7.58247ZM11.875 10.9968C11.875 10.3755 12.3787 9.87178 13 9.87178C13.6213 9.87178 14.125 10.3755 14.125 10.9968C14.125 11.6181 13.6213 12.1218 13 12.1218C12.3787 12.1218 11.875 11.6181 11.875 10.9968ZM13 8.12178C11.4122 8.12178 10.125 9.40896 10.125 10.9968C10.125 12.5846 11.4122 13.8718 13 13.8718C14.5878 13.8718 15.875 12.5846 15.875 10.9968C15.875 9.40896 14.5878 8.12178 13 8.12178Z' fill='url(%23paint0_linear_738_6915)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_738_6915' x1='0.90625' y1='1.40332' x2='27.0529' y2='17.3887' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23F1A351'/%3E%3Cstop offset='1' stop-color='%235D6AA7'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+            }
+
+            &-text {
+                font-family: 'Noto Sans';
+                font-weight: 500;
+                font-size: 18px;
+                color: #0A071A;
+                position: relative;
+                margin-left: 6px;
+            }
+        }
+
+    }
+
+    &-btn {
+        button {
+            display: block;
+            margin: 0 auto;
+            margin-top: 50px;
+            font-family: 'Noto Sans';
+            font-weight: 600;
+            font-size: 18px;
+            text-align: center;
+            color: #0A071A;
+
+            padding: 18px 35px;
+            background: #fff;
+            border: 2px solid #F7931A;
+            border-radius: 100px;
+            cursor: pointer;
+
+        }
+    }
+}
